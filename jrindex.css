@@ -49,6 +49,12 @@ a{
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
     border-radius:5px;
 }
+.hot-sauce{
+    padding: 10%;
+    font-size: 1.4em;
+    font-family: "Rye", serif;
+    color:#4D9DE0;
+}
 /*css grid*/
 .container{
     display: grid;
