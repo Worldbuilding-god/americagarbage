@@ -1,0 +1,13 @@
+*{
+    box-sizing:border-box;
+    margine:0;
+    padding:0;
+    border:0;
+}
+body{
+    background-image: linear-gradient(#1c0125,#1c0125aa);
+    height: 100vh;
+}
+.main-nav{
+    display: flex;
+}
