@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&display=swap');
+/*
+font-family: "Special Elite", serif;
+font-family: "Rye", serif;
+4D9DE0=Celestial blue
+E15554=Indian red
+F7F3E3=Cosmic latte
+*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    border:0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    font-family: "Special Elite", serif;
+}
+ul{
+    list-style: none;
+    font-family: "Rye", serif;
+}
+a{
+    color: #F7F3E3;text-decoration: none;
+}
+.logo{
+    margin: 0;font-size: 1.45em;color: #F7F3E3;
+}
+.main-nav{
+    margin-top: 5px;
+}
+.logo a,
+.main-nav a{
+    padding: 10px 15px;text-transform: uppercase;text-align: center;display: block;
+}
+.main-nav a{
+    color: #F7F3E3;font-size: .99em;
+    text-align: center;
+    font-family: "Rye", serif;
+}
+.main-nav a:hover{
+    color: #000000;
+}
+.header{
+    padding: .5em;
+    border:1px solid #E15554;
+    background-color: #E15554;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    border-radius:5px;
+}
+/*css grid*/
+.container{
+    display: grid;
+}
+/* Responsive images */
+img{
+    width: 100%;
+}
+/*css grid*/
+.container{
+    display: grid;
+}
+/*Tablet media query*/
+
+@media screen and (min-width: 769px){
+    .header,
+    .main-nav{
+        display: flex;
+    }
+    .header{
+        flex-direction: column;align-items: center;.header{
+            width: 80%;margin: 0 auto;max-width: 1150px;
+        }
+    }
+    .container{
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px auto);
+    }
+}
+/**/
+/*comp*/
+@media screen and (min-width:1025px){
+    .header{
+        flex-direction: row;justify-content: space-between;
+    }
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/**/
+/*large*/
+@media screen and (min-width:1025px){
+    .header{
+        flex-direction: row;justify-content: space-between;
+    }
+}
+/**/
+footer{
+    margin-top: 0;
+    padding: 10%;
+    background: #E15554;
+    color:#F7F3E3;
+    min-height: 300px;
+}
