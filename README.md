@@ -1,1 +1,1 @@
-# HalloweenGarbage
+# Americangarbage
