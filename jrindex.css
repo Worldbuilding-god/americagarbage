@@ -75,6 +75,33 @@ a{
     background-position-y: bottom;
     min-height: 500px;
 }
+.hs4{
+    background-image: url(img/Chief_Eagle_Cap_signs_a_petition_at_the_Montana_League_of_Women_Voters_booth_at_the_Montana_State_Fair_in_Helena.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 500px;
+}
+.hs5{
+    background-color: #E15554;
+    align-items: center;
+    align-content: center;
+    h2{
+        padding: 10px;
+    }
+}
+footer{
+    p{
+        padding: 20px;
+    }
+}
+.hs3{
+    background-image: url(img/pexels-photo-4386426flag.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 500px;
+}
 /* Responsive images */
 img{
     width: 100%;
@@ -107,6 +134,9 @@ img{
     }
     .hs3{
         grid-column: 2/2;
+    }
+    .hs5{
+        grid-column: 2/4;
     }
 }
 /**/
